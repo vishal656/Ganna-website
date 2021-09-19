@@ -245,15 +245,15 @@
     
     #song_desc #total_download {
         position: absolute;
-        bottom: 10px;
-        right: 22%;
+        bottom: 20px;
+        right: 15%;
         color: #EC407A;
     }
     
     #song_desc #message {
         position: absolute;
-        bottom: 5px;
-        right: 2.5em;
+        bottom: 20px;
+        right: -0.3em;
         color: #EC407A;
     }
     
@@ -266,6 +266,7 @@
         padding: 3px;
         display: flex;
         justify-content: right;
+        margin-top: -15px;
     }
     
     .user_comments {
@@ -281,9 +282,9 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        margin-top: 20px;
+        /* margin-top: 10px; */
         min-height: 230px;
-        margin-bottom: -5px;
+        padding-bottom: 120px;
     }
     
     .comments .comment {
@@ -324,6 +325,8 @@
         display: flex;
         justify-content: space-between;
         background-color: #FDC6C2;
+        position: fixed;
+        bottom: 0;
     }
     
     .footer #logo {
@@ -359,5 +362,12 @@
         }
         #nav_menu ul li {
             margin: 40px 0;
+        }
+        #hero-image {
+            width: 100%;
+            height: auto;
+        }
+        #comments {
+            width: 100%;
         }
     }
